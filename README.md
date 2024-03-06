@@ -2,4 +2,4 @@ This Website compiles top articles from various news sources (using NewsApi.org)
 
 Build using React and Bootstrap
 
-Link: newsapp-ashy-five.vercel.app
+Link:  https://newsapp-ashy-five.vercel.app
