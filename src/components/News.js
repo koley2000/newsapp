@@ -60,9 +60,9 @@ export default class News extends Component {
             return (
               <div className="d-flex justify-content-center" key={element.url}>
                 <NewsItem
-                  title={element.title ? element.title.slice(0, 45) : ""}
+                  title={element.title ? element.title : ""}
                   description={
-                    element.description ? element.description.slice(0, 88) : ""
+                    element.description ? element.description.slice(0,170) : ""
                   }
                   imageUrl={element.urlToImage}
                   newsUrl={element.url}
